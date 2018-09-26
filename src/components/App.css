@@ -1,0 +1,69 @@
+.all {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: white;
+  }
+  
+  .all .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url("/img/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-position: center center;
+  }
+  
+  .all .hero .title {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .all .hero .cta a {
+    line-height: 250%;
+    font-size: 2.5em;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-left: 5px solid slateblue;
+    -webkit-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .all .hero .cta a:hover {
+    -webkit-box-shadow: inset 400px 0 0 0 slateblue;
+            box-shadow: inset 400px 0 0 0 slateblue;
+  }
+  
+  .all .hero .cta .button {
+    font-family: Montserrat, sans-serif;
+    line-height: 150%;
+    font-size: 2.5em;
+    color: white;
+    background: none;
+    border: none;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 0 15px;
+    background-color: slateblue;
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .all .hero .cta .button:hover, .all .hero .cta .button .button:active, .all .hero .cta .button .button:focus {
+    -webkit-box-shadow: inset 400px 0 0 0 #052F48;
+            box-shadow: inset 400px 0 0 0 #052F48;
+  }
+  /*# sourceMappingURL=style.css.map */
