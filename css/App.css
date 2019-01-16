@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.all {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+}
+  
+.all .hero {
+  display: flex;
+  background-image: url("../img/hero.jpg");
+  height: 100vh;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: center center;
+}
+  
+.all .hero .title {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+  
+.all .hero .cta a {
+  line-height: 250%;
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: slateblue;
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+  
+.all .hero .cta a:hover {
+  -webkit-box-shadow: inset 400px 0 0 0 #052F48;
+  box-shadow: inset 400px 0 0 0 #052F48;
+}
